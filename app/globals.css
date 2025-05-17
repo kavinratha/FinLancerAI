@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 186 55% 67%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 186 55% 67%;
+  --radius: 0.5rem;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Einfache Klassen ohne @apply */
+.freelance-card {
+  background-color: white;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.freelance-button-primary {
+  background-color: #7dd5d8;
+  color: white;
+  font-weight: 500;
+}
+.freelance-button-primary:hover {
+  background-color: #6bc4c7;
+}
+
+.freelance-button-cta {
+  background-color: #ffd100;
+  color: #333333;
+  font-weight: 500;
+}
+.freelance-button-cta:hover {
+  background-color: #eabd00;
+}
+
+.freelance-notification {
+  background-color: #7dd5d8;
+  color: #333333;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.freelance-alert {
+  background-color: #f8b0b0;
+  color: #333333;
+  border-radius: 0.375rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.freelance-section-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 0.5rem;
+}
