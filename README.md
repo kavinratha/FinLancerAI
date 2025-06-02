@@ -1,8 +1,10 @@
 # FinLancer AI
 
-Ein KI-gestützter Assistent für Freelancer, der optimale Stundensätze berechnet, professionelle Angebote generiert und Verhandlungstraining bietet.
+Ein KI-gestützter Smart Rate Advisor für Freelancer, der optimale Stundensätze berechnet, professionelle Angebote generiert und Verhandlungstraining bietet.
 
 ## Überblick
+
+FinLancer AI ist eine Next.js-Anwendung, die Freelancern dabei hilft, ihre Einkommenssituation zu optimieren. Das Tool kombiniert Marktdatenanalyse mit KI-gestützten Empfehlungen und bietet eine vollständige Suite für die Geschäftsabwicklung.
 
 **Prototyp-Status:** Dieses Projekt ist ein funktionsfähiger Prototyp. Einige Features sind als Mockups implementiert (z.B. Marktdatenanalyse, historische Trends), während andere vollständig produktiv funktionieren, sobald ein OpenAI API-Schlüssel konfiguriert ist (KI-Chat, Angebotsgenerierung, Verhandlungssimulator).
 
@@ -10,7 +12,7 @@ Ein KI-gestützter Assistent für Freelancer, der optimale Stundensätze berechn
 
 ## Features
 
-### 🎯 Intelligenter Stundensatzberechner
+### 🎯 Smart Rate Advisor
 - Intelligente Stundensatzberechnung basierend auf Skills, Erfahrung und Marktdaten
 - Confidence-Indikatoren für Empfehlungsqualität
 - Detaillierte Erklärungen der Berechnungsfaktoren
@@ -24,7 +26,9 @@ Ein KI-gestützter Assistent für Freelancer, der optimale Stundensätze berechn
 
 ### 📄 Angebots- und Rechnungsgenerator
 - Automatische Erstellung professioneller Angebote
+- Rechtskonforme Rechnungsgenerierung mit Kleinunternehmerregelung
 - Anpassbare Templates für verschiedene Branchen
+- Mehrwertsteuer-Berechnungen und Compliance-Features
 
 ### 🤝 Verhandlungssimulator
 - Interaktives Training für Preisverhandlungen
