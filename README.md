@@ -132,13 +132,6 @@ npm run build
 npm run start
 \`\`\`
 
-## Entwicklungshistorie
-
-Das Projekt wurde iterativ entwickelt:
-- **Version 1**: Grundlegende Stundensatzberechnung
-- **Version 33**: KI-Integration und erweiterte Features
-- **Version 77**: Vollständige Freelancer-Suite mit Verhandlungstraining
-
 ## Lizenz
 
 Akademisches Projekt - Universität St. Gallen, Institut für Wirtschaftsinformatik
